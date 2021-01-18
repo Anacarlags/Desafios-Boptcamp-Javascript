@@ -14,12 +14,24 @@
  * exibido abaixo no exemplo de saída. Não esqueça da mensagem "valores positivos" ao final.
  */
 
-numero = Array(6);
-numero[0] = gets();
-numero[1] = gets();
-numero[2] = gets();
-numero[3] = gets();
-numero[4] = gets();
-numero[5] = gets();
-positivos = numero.filter(value => value > 0);
-console.log(positivos.length + " valores positivos");
+let total = 0;
+let i = 0;
+let valor;
+
+  while (i <= 5){
+  
+    valor = parseInt(gets());
+  
+   if (valor > 0){
+  
+     total ++;
+  
+   }
+  
+    i++;
+  
+  }
+  
+  console.log(total + " " + "valores positivos");
+
+
