@@ -4,7 +4,7 @@ let quantia = parseInt(gets());
 let resto = quantia;
 
 while (resto >= 1){
-  nota = notas.findIndex(value => value <= resto);
+  let nota = notas.findIndex(value => value <= resto);
   nnotas[nota] = Math.trunc(resto / notas[nota]);
   resto = resto % notas[nota];
 }
