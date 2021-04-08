@@ -2,7 +2,7 @@
 let numero = Array(5);
 
 
-for(let i =0 ; i <= numero; i++){
+for(let i =0 ; i < numero.length; i++){
     numero[i] = parseInt(gets());
 }
 
